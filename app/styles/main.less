@@ -1,0 +1,223 @@
+// @import "../bower_components/bootstrap/less/bootstrap.less";
+// @icon-font-path: "../fonts/glyphicons/";
+
+
+/////////////////////////// UTILITY CLASSES/////////////////////////
+
+
+.orange {
+	background-color: orange;
+}
+
+.mb {
+	margin-bottom: 60px;
+
+}
+
+.mt {
+	margin-top: 60px;
+}
+
+.np {
+	padding: 0;
+}
+
+.hide {
+	display: none;
+}
+
+.video-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 35px;
+    height: 0;
+    max-width: 720px;
+    overflow: hidden;
+
+      iframe {
+         position: absolute;
+         top:0;
+         left: 0;
+         width: 100%;
+         height: 100%;
+     }
+}
+
+
+/////////////////////GLOBAL STYLES //////////////////////////////////
+body {
+	font-family: "Proxima Nova","Open Sans",Arial,sans-serif;
+	font-size: 17px;
+	line-height: 1.6;
+}
+
+h1,h2,h3,h4 {
+font-family: "Proxima Nova","Open Sans",Arial,sans-serif;
+}
+
+h2 {
+	font-size: 22px;
+	line-height: 26px;
+}
+
+.emphasis {
+	font-weight: bold;
+}
+.navbar-default {
+	background-color: #0A549A;
+	border: none;
+}
+.navbar {
+	min-height: 37px;
+}
+
+.container {
+	// background-color: orange;
+	max-width: 920px;
+}
+
+.logo {
+	width: 200px;
+	margin-bottom: 40px;
+}
+
+.casetitle {
+	font-size: 36px;
+	line-height: 47px;
+	color: #0A549A;
+	margin-bottom: 40px;
+}
+
+.case-manager-card {
+    position: relative;
+    margin-top: 25px;
+    background-color: #f9f9f9;
+    border-radius: 3px;
+    p {
+    	margin-bottom: 0;
+    }
+    h2 {
+    	margin-top: 0;
+    	margin-bottom: 30px;
+    }
+
+    ul {
+    	list-style: none;
+    	padding-left: 20px;
+    	padding-top: 214px;
+    	padding-bottom: 40px;
+    }
+
+    span {
+    	font-size: 24px;
+    }
+}
+
+.cardimg {
+	position: absolute;
+	text-align: center;
+	margin-top: -40px;
+	margin-left: -81px;
+	left: 50%;
+	
+
+}
+@media screen  and (max-width: 990px) {
+	.card {margin-top: 100px;}
+}
+.case-manager-img {
+	border: 5px solid #fff;
+	width: 162px;
+	margin-bottom: 12px;
+}
+
+
+.read-more-show, .read-more-hide {
+	padding-top: 20px;
+	float:right;
+}
+
+.sec-questions {
+	ul {
+		padding-left: 20px;
+		li {
+			margin-bottom: 10px;	
+		}
+	}
+}
+
+.sec-expert hr {
+	border-top: 1px solid #dedede;
+}
+
+.expert-pic {
+	padding: 0 0 60px 0;
+	text-align: center;
+	p {
+		margin:0;
+	}
+}
+.expert-id {
+	margin-top: 0;
+}
+
+.feedback {
+	font-size: 22px;
+	font-weight: 600;
+}
+
+.price {
+	float: right;
+}
+
+
+.sec-fee {
+	// background-color: orange;
+	// padding-right: 60px;
+	ul {
+		list-style: none;
+		padding-left: 0;
+		padding-right: 20%;
+		font-weight: 600;
+		margin-bottom: 20px;
+	}
+}
+
+.sec-legalexp {
+	// background-color: tomato;
+}
+
+
+.btn-success {
+color: #ffffff;
+background-color: #2A8414;
+border: 2px solid #2A8414;
+font-size: 17px;
+padding: 16px 32px;
+margin: 20px;
+}
+
+.btn-default {
+font-size: 17px;
+padding: 16px 32px;	
+border: 2px solid #333;
+margin: 20px;
+}
+
+@media screen and (max-width: 400px) {
+	.btn-default {
+		font-size: 12px;
+	}
+
+	.logo-row {
+		text-align: center;
+	}
+
+	.casetitle {
+		font-size: 1.3em;
+	}
+	
+	.feedback {
+		font-size: 1.2em;
+	}
+}
